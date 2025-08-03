@@ -54,7 +54,7 @@ public:
 // 4th Approach  - total sum
 class Solution {
 public:
-    int missingNumber(vector<int>& nums) {  // T.C. - O(n) & T.C.-O(1)
+    int missingNumber(vector<int>& nums) {  // T.C. - O(n) & S.C.-O(1)
         int n = nums.size();
         int sum = 0;
         for(int i=0; i<n; i++) {
@@ -68,7 +68,7 @@ public:
 // 5th Approach - using XOR
 class Solution {
 public:
-    int missingNumber(vector<int>& nums) {
+    int missingNumber(vector<int>& nums) {   //T.C.- O(n) & S.C.-O(1)
         int n = nums.size();
         int ans = n;
         for(int i=0; i<n; i++) {
