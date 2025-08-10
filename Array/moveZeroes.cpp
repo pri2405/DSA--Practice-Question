@@ -9,7 +9,7 @@ public:
         int n = nums.size();
         vector<int> ans(nums.begin(), nums.end());
         int idx = 0;
-        // fill the ans array with non-zero elements
+        // fill the nums array with non-zero elements from ans array
         for(int i=0; i<n; i++) {
             if(ans[i] != 0) nums[idx++] = ans[i];
         }
